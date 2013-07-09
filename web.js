@@ -8,7 +8,7 @@ app.get('/', function(request, response) {
   
   // Read from file
   buf = fs.readFileSync('index.html');
-  data = buf.toSting();
+  data = buf.toString();
   
   response.send(data);
 });
