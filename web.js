@@ -6,8 +6,8 @@ app.get('/', function(request, response) {
   // response.send('Hello World2!');
   
   // Read from file
-  Buffer buf = fs.readFileSync('index.html');
-  String data = buf.toSting();
+  buf = fs.readFileSync('index.html');
+  data = buf.toSting();
   
   response.send(data);
 });
