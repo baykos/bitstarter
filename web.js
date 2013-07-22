@@ -1,7 +1,7 @@
-// var express = require('express');
-// var app = express.createServer(express.logger());
-var express = require("express");
-var app = express();
+var express = require('express');
+var app = express.createServer(express.logger());
+//var express = require("express");
+//var app = express();
 var fs = require('fs');
 var htmlfile = "index.html";
 
